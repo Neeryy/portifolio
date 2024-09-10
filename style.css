@@ -60,7 +60,7 @@ img {
     border-radius: 25px;
 }
 
-h1#especial {
+.especial {
     text-align: center;
     color: black;
 }
@@ -68,6 +68,11 @@ h1#especial {
 h1, h2 {
     margin-bottom: 20px;
     text-align: left;
+}
+
+p {
+    text-align: justify;
+    text-indent: 25px;
 }
 
 .degrade {
@@ -108,4 +113,30 @@ div#q4 {
     background-position: center center;
     background-size: cover;
     border-radius: 25px;
+}
+
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.box2 {
+    background-color: #003366;
+    padding: 20px;
+    margin-top: 5px; 
+}
+
+.forminput {
+    border-radius: 10px;
+    padding: 4px;
+
+}
+
+div > form > label {
+    
+    color: black;
 }

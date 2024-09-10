@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,48 +8,80 @@
 </head>
 <body>
     <header>
-        <h1 id="especial">Meu portifolio</h1>
+        <h1 class="especial">Meu portifolio</h1>
     </header>
     <nav>
-        <a href="#quemsou">Home</a>
-        <a href="#conhecimentos">Sobre</a>
-        <a href="#">Contato</a>
+        <a href="#quemsou">Sobre mim</a>
+        <a href="#conhecimentos">Tecnologias</a>
+        <a href="#contato">Contato</a>
     </nav>
     <main>
         <article>
             <h1 class="degrade" id="quemsou">Quem sou eu ?</h1>
             <img src="eu.jpeg" alt="Gabriel nery">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab consectetur mollitia, 
-                vel sit consequatur sequi id deserunt doloribus corporis adipisci, ipsum iusto unde 
-                veniam odio. Asperiores quia provident quidem.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab consectetur mollitia, 
-                vel sit consequatur sequi id deserunt doloribus corporis adipisci, ipsum iusto unde 
-                veniam odio. Asperiores quia provident quidem.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab consectetur mollitia, 
-                vel sit consequatur sequi id deserunt doloribus corporis adipisci, ipsum iusto unde 
-                veniam odio. Asperiores quia provident quidem.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab consectetur mollitia, 
-                vel sit consequatur sequi id deserunt doloribus corporis adipisci, ipsum iusto unde 
-                veniam odio. Asperiores quia provident quidem.
+                Olá, meu nome é Gabriel Nery. Moro em São Paulo - SP.
+                Sou desenvolvedor full-stack. 
+                Trabalho como desenvolvedor há 1 ano e 5 meses (registrado), mas já fiz  
+                diversos freelances nas plataformas Freelancer, GetNinjas e alguns serviços por fora, 
+                através de contatos que chegaram até mim. 
+                Recentemente, abri um canal no YouTube com o objetivo de ajudar as pessoas, 
+                assim como fui ajudado quando iniciei na área. No canal, tento abordar  
+                assuntos sobre as tecnologias do momento e ensinar um pouco de automação com Python também. 
+                Hoje em dia, com a inteligência artificial, quase todo mundo quer encontrar uma 
+                maneira de automatizar seus processos e ganhar mais tempo para si mesmo, e lá eu ensino 
+                como dar os primeiros passos para isso.
             </p>
 
-            <h2 class="degrade">Tecnologias em destaque</h2>
+            <h2 class="degrade" id="conhecimentos">Tecnologias em destaque</h2>
             <div class="quadrado" id="q1"> </div>
             <div class="quadrado" id="q2"> </div>
             <div class="quadrado" id="q3"> </div>
             <div class="quadrado" id="q4"> </div>
 
-            <p id="conhecimentos">
-                vel sit consequatur sequi id deserunt doloribus corporis adipisci, ipsum iusto unde 
-                veniam odio. Asperiores quia provident quidem.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab consectetur mollitia, 
-                vel sit consequatur sequi id deserunt doloribus corporis adipisci, ipsum iusto unde 
-                veniam odio. Asperiores quia provident quidem.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab consectetur mollitia, 
-                vel sit consequatur sequi id deserunt doloribus corporis adipisci, ipsum iusto unde 
-                veniam odio. Asperiores quia provident quidem.
+            <p>
+                Atualmente, estudo as linguagens Python, HTML, CSS e SQL. Sempre busco me atualizar e criar 
+                algumas coisas para não perder o que aprendi. Tenho anotações em 
+                caderno para me ajudar a tirar dúvidas também.
+                Meu conhecimento em Python é bem amplo. 
+                Consigo usar várias de suas bibliotecas, tais como: 
+                Flask, Django (um pouco), PyAutoGUI, time, requests, os, sys, 
+                shutil, Selenium, pandas, NumPy, entre outras.
+                Tenho um bom conhecimento em SQL, tanto em SQLite 
+                quanto em PostgreSQL, sabendo criar tabelas, fazer consultas, 
+                inserir dados, modificar e consultar, entre outros.
+                Em HTML e CSS, venho me aperfeiçoando cada vez mais, sempre 
+                focado nas metodologias ágeis para o desenvolvimento de sites, 
+                sistemas e até de aplicações web.
             </p>
+            <h2 class="degrade">Contato</h2>
+
+            <div>
+                <div class="box2" id="contato">
+                    <p>Gostou do meu perfil ?  
+                        me manda uma mensagen por email, e assim poderemos nos falar melhor
+                        e marca um bate papo, estou aguardando o seu contato.
+                    </p>
+                </div>
+                <div class="box">
+                    <form method="post" action="/">
+                        <h1 class="especial">Formulário de Contato</h1>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required class="forminput"><br><br>
+                        
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required class="forminput"><br><br>
+                        
+                        <label for="mensagem">Mensagem:</label><br><br>
+                        <textarea id="mensagem" name="mensagem" rows="5" required class="forminput"></textarea><br><br>
+    
+                        <label for="arquivo">Selecione um arquivo:</label>
+                        <input type="file" id="arquivo" name="arquivo" required class="forminput"><br><br>
+                        
+                        <button type="submit" class="forminput">Enviar</button>
+                    </form>
+                </div>
+           </div>
 
         </article>
     </main>
